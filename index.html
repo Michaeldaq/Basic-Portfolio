@@ -2,23 +2,35 @@
 <html>
 	<head>
 		<title>Michael's Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="assets/style.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 	</head>
 	<body>
 
-		<header class="main">
-			<h1>Michael Daquila</h1>
+		<header>
+			<h1 class="name">Michael Daquila</h1>
+			<nav>
+				<ul>
+					<li class="home"><a href="index.html">About</a></li>
+					<li class="portfolio"><a href="portfolio.html">Porfolio</a></li>
+					<li class="contact"><a href="contact.html">Contact</a></li>
+		</nav>
 		</header>
-		<section class="nav">
-			<p><a href="index.html">About</a></p>
-			<p><a href="portfolio.html">Porfolio</a></p>
-			<p><a href="contact.html">Contact</a></p>
-		</section>
-		<section>
+		<div class="wrapper">
 			<h1 class="title">About Me</h1>
-			<img src="assets\images\placeholder.jpeg"/>
+			<img id="placeholder" src="assets\images\placeholder.jpeg"/>
 			<p> I am a huge geek. I enjoy comics, video games, movies, technology, and music pretty much anything that is considered some form of entertainment. I currently work at a pizza place as a Manager/ Delivery driver. I got into coding to give myself an oppertunity to get out of the pizza shop and towards something that intersts me more. Originally I went to School for Computer Information and Technology however I took a year hiatus and just worked full time. Now that I am dying to go back to school and get out of the unforgiving heat of a kitchen in Florida's summer I hope that I follow everyhting as good as I can to make sure that I don't have to go back to the kitchen  when summer rolls around again</p>
-		</section>
+		</div>
+		<aside class="sidebar">
+			<h1 id="sidebart">Connect With Me</h1>
+			<a href="https://github.com/Michaeldaq"><img id="git" src="assets/images/githublogo.png"/></a>
+			<a href="https://www.linkedin.com/in/michael-daquila-319163127"><img id="linked" src="assets/images/linkedinlogo.png"/></a>
+			<a href="http://stackoverflow.com/users/6815817/michael-daquila?tab=profile"><img id="overstack" src="assets/images/stackoverflowlogo.png"/></a>
+		</aside>
+		<div class="push"></div>
+		<footer class="footer">
+			<p class="copyright">Copyright (c) 2016 Michael Daquila</p>
+		</footer>
 
 
 	</body>
